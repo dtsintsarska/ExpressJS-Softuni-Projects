@@ -9,29 +9,6 @@ function createToken(data) {
     });
 }
 
-// function auth(redirect = false) {
-//     return function (req, res, next) {
-//         const token = req.cookies['aid'] || '';
-//         try {
-//             jwt.verify(token, secret)
-//             models.User.findById(data.id).then(user => {
-//                 req.user = user;
-//                 next();
-//             })
-
-//         } catch {
-//             (err) => {
-//                 if (redirect) {
-//                     next();
-//                     return;
-//                 }
-//                 res.redirect('/login');
-//                 return;
-//             }
-//         }
-
-//     }
-// }
 
 const auth = (redirect = false) => {
     return function (req, res, next) {
