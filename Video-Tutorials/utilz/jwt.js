@@ -34,6 +34,5 @@ const auth = (redirect = false) => {
 
 module.exports = {
     createToken,
-    //verifyToken,
     auth
 };
