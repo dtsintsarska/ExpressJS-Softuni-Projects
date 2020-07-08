@@ -1,4 +1,4 @@
-# Exam-preps-ExpressJS
+# JS Back-End Projects with ExpressJS and MongoDB
 
 --- The projects work with dotenv library and .env file with the following structure:
 
